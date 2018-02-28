@@ -1,0 +1,44 @@
+* {
+    font-family: "Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+
+    &.realms, &.server {
+        height: 100%;
+    }
+
+    &.characters {
+        height: auto;
+
+        body {
+            background-position: top;
+            background-size: 200%;
+            background-repeat: repeat;
+        }
+
+        #main {
+            background-position-x: center;
+            background-repeat: no-repeat;
+        }
+    }
+
+    &.collections {
+        height: auto;
+
+        #main {
+            background-position: top;
+            background-size: 150%;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+#main {
+    height: 100%;
+}
